@@ -1,0 +1,60 @@
+:root {
+    --color-1: #CED9ED;
+    --color-2: #CFC7FA;
+    --color-3: #E2C6EE;
+    --color-4: #EFC8DD;
+    --color-5: #EFC8DD;
+    --color-6: #FF0000;
+    --color-7: #00EFA7;
+    --color-8: #00A3FF;
+    --color-9: #FFB23F;
+    --common-text-color: #000000;
+    --white: #fff;
+    --black: #000;
+    --twitter-color: #06A5E9;
+    --facebook-color: #0A70AE;
+    --youtube-color: #FE0000;
+    --instagram-color: #911EAF;
+    --linkedin-color: #0E7DC2;
+    --link-color: #007bff;
+
+    --animation-color-gradient: linear-gradient(120deg, #FBC2EA 0%, #a6c1ee 25%, #00EFA7 50%, #EFC8DD 80%);
+    --color-gradient-2: radial-gradient(100.94% 522.06% at -0.94% 0%, rgba(80, 98, 202, 0.3) 0%, rgba(247, 190, 108, 0.3) 100%);
+    --color-gradient-3: radial-gradient(100.94% 522.06% at -0.94% 0%, rgba(247, 190, 108, 0.3) 0%, rgba(80, 98, 202, 0.3) 100%);
+    --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, .3);
+    --shadow-light: 0 2rem 5rem rgba(0, 0, 0, .06);
+}
+
+$bp-largest: 75em; // 1200px
+$bp-large: 68.75em; // 1100px
+$bp-medium: 56.25em; // 900px
+$bp-small: 37.5em; // 600px
+$bp-smallest: 31.25em; // 500px
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: var(--common-text-color);
+    background-image: linear-gradient(to right bottom, var(--color-primary-light), var(--color-primary-dark));
+    background-size: cover;
+    background-repeat: no-repeat;
+}

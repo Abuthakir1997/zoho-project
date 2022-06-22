@@ -1,0 +1,19 @@
+.access-show-section {
+    height: 324px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    &__heading {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .btn {
+        margin-top: 1.5rem;
+        padding: 1rem 5rem;
+        border-radius: 0;
+    }
+
+}

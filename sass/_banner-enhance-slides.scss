@@ -1,0 +1,71 @@
+.enhance-slides-section {
+    height: 520px;
+
+    .row {
+        height: 100%;
+
+        .left-section {
+            &__left-side-image {
+                background: url(../public/img/slides-left-section-img.svg);
+                width: 100%;
+                height: calc(100% - 60px);
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+
+            &__button {
+                width: 200px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 0.5rem;
+                background: var(--white);
+                border-radius: 3rem;
+                margin: 0 auto;
+                box-shadow: 0px 1.79312px 8.9656px rgba(88, 109, 230, 0.4);
+
+
+                i {
+                    background: url(../public/img/replay-icon.svg);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    width: 30px;
+                    height: 30px;
+                    display: inline-block;
+                    margin-right: 0.5rem;
+                }
+            }
+
+        }
+
+        .right-section {
+            display: flex;
+            align-items: center;
+
+            .puzzle-content-section {
+                &__icon {
+                    background: url(../public/img/puzzle-icon.svg);
+                    background: url(../public/img/puzzle-icon.svg);
+                    width: 60px;
+                    height: 60px;
+                    background-repeat: no-repeat;
+                }
+
+                h2 {
+                    width: 100%;
+                    padding-right: 2rem;
+                    font-weight: bold;
+                    margin: 1.5rem 0;
+                }
+
+                p {
+                    width: 100%;
+                    padding-right: 2rem;
+
+                }
+            }
+
+        }
+    }
+}

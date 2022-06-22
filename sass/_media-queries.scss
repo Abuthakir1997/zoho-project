@@ -1,0 +1,345 @@
+@media (min-width: 320px) and (max-width: 767px) {
+    header {
+        padding-top: 3rem;
+        height: 40rem;
+
+        .header-links-section {
+            display: none;
+        }
+
+        .header-content-section {
+            margin: 0;
+
+            h1 {
+                font-size: 2rem;
+                width: 100%;
+                padding: 0 2rem;
+            }
+        }
+
+        .absolute-left-image {
+            left: 0;
+            width: 100px;
+            background-position: left;
+            background-size: contain;
+            display: none;
+        }
+
+        .absolute-right-image {
+            display: none;
+        }
+    }
+
+    .banner-funding-pitch-deck {
+        height: 350px;
+        background: none;
+
+        &__overlay {
+            display: none;
+            top: 50%;
+            height: 50px;
+            background: rgba(255, 255, 255, 1);
+            filter: blur(8px);
+
+        }
+
+        &__absolute-bottom-left-img {
+            display: none;
+        }
+
+        &__absolute-bottom-right-img {
+            width: 100px;
+            height: 100px;
+            right: 0;
+            bottom: 0;
+            background-size: contain;
+        }
+
+        &__container {
+            width: 100%;
+
+            &__absolute-top-right-img {
+                display: none;
+            }
+
+            &__absolute-top-left-img {
+                width: 100px;
+                height: 100px;
+                background-size: contain;
+                left: -12px;
+                top: 50px;
+                background-position: center;
+            }
+        }
+    }
+
+    .enhance-slides-section {
+        height: 720px;
+
+        .row {
+            .left-section {
+                height: 50%;
+
+                &__left-side-image {
+                    height: 100%;
+                }
+
+                &__button {
+                    display: none;
+                }
+            }
+
+            .right-section {
+                height: 50%;
+
+                .puzzle-content-section {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+
+                    h2 {
+                        width: auto;
+                        font-size: 1.5rem;
+                        text-align: center;
+                        padding: 0;
+                    }
+
+                    p {
+                        width: auto;
+                        text-align: center;
+                        padding: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .deliver-quantiative-section {
+        height: 720px;
+
+        &__wrapper {
+            width: 100%;
+            border-radius: 1rem;
+
+            &__content-section {
+                height: 50%;
+
+                &__heading {
+                    font-size: 1.5rem;
+                    text-align: center;
+                    padding: 0 1rem;
+                }
+
+                &__sub-heading {
+                    padding: 0 1rem;
+                    text-align: center;
+                }
+            }
+
+            &__card-section {
+                height: 50%;
+
+                &__cards {
+                    height: calc(100% - 100px);
+                    padding: 0 4rem;
+
+                    &__card-1 {
+                        height: 143px;
+                    }
+                }
+            }
+
+            &__bottom-absolute-image {
+                display: none;
+            }
+
+            &__top-absolute-image {
+                left: 20%;
+            }
+
+            &__bottom-absolute-ellipse-image {
+                display: none;
+            }
+        }
+    }
+
+    .streamline-section {
+        margin: 2rem 0;
+
+        &__left-section {
+            height: 50%;
+
+            &__image-section {
+                width: 300px;
+                height: 300px;
+            }
+        }
+
+        &__right-section {
+            height: 50%;
+
+            &__heading {
+                font-size: 1.5rem;
+                text-align: center;
+            }
+
+            &__sub-heading {
+                text-align: center;
+            }
+
+            &__icon-section {
+                width: 60px;
+                height: 60px;
+            }
+        }
+    }
+
+    .manage-deck-section {
+        height: 720px;
+        padding: 10px;
+
+        &__comment-icon {
+            display: none;
+        }
+
+        &__wrapper {
+            width: 100%;
+            border-radius: 1rem;
+
+            &__image-section {
+                left: 20%;
+            }
+
+            &__left-section {
+                height: 50%;
+
+                &__heading {
+                    font-size: 1.5rem;
+                    padding: 0 1rem;
+                    text-align: center;
+                }
+
+                &__sub-heading {
+                    padding: 0 1rem;
+                    text-align: center;
+                }
+            }
+
+            &__right-section {
+                height: 50%;
+
+                &__image-section {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+
+    .collaborate-section {
+        padding: 1rem;
+        height: 500px;
+
+        &__wrapper {
+            margin: 0;
+
+            &__content-section {
+                padding: 0;
+                height: 50%;
+
+                &__heading {
+                    font-size: 1.5rem;
+                }
+
+                &__planet-icon {
+                    display: none;
+                }
+            }
+
+            &__image-section {
+                height: 50%;
+            }
+        }
+    }
+
+    .access-show-section {
+        padding: 0 2rem;
+
+        &__heading {
+            font-size: 1rem;
+        }
+
+        .btn {
+            display: none;
+        }
+    }
+
+    footer {
+        .row {
+            padding-bottom: 0;
+        }
+
+        .image-section {
+            &__container {
+                width: 100%;
+            }
+        }
+    }
+}
+
+
+//tablet
+
+@media (min-width:768px) and (max-width:1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    header {
+        .header-links-section {
+            padding: 1rem 0;
+        }
+    }
+
+    .banner-funding-pitch-deck {
+
+        &__container {
+            &__absolute-top-right-img {
+                position: absolute;
+                width: 200px;
+                height: 200px;
+                right: 0;
+                top: 11rem;
+            }
+        }
+    }
+
+    .deliver-quantiative-section {
+        &__wrapper {
+            &__bottom-absolute-image {
+                display: none;
+            }
+
+            &__bottom-absolute-ellipse-image {
+                display: block;
+            }
+        }
+    }
+
+    .collaborate-section {
+        &__wrapper {
+            &__content-section {
+                &__planet-icon {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    footer {
+        .image-section {
+            &__container {
+                &__sub-heading {
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+}

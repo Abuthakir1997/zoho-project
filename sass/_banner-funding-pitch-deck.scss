@@ -1,0 +1,99 @@
+.banner-funding-pitch-deck {
+    width: 100%;
+    height: 500px;
+    background: url(../public/img/vector_lines.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-size: contain;
+
+    &__overlay {
+        width: 100%;
+        height: 120px;
+        position: absolute;
+        bottom: 0;
+        background: rgba(255, 255, 255, 0.9);
+        z-index: 10;
+        filter: blur(10px);
+    }
+
+    &__container {
+        background: url('../public/img/funding_pitch_deck_bg.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 700px;
+        height: 100%;
+        margin: 0 auto;
+        position: relative;
+
+        &__absolute-top-left-img {
+            background: url(../public/img/startup_top_left_absolute_image.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            position: absolute;
+            width: 200px;
+            height: 140px;
+            left: -2rem;
+            top: 7.5rem;
+        }
+
+        &__absolute-top-right-img {
+            background: url(../public/img/startup_top_right_absolute_image.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            position: absolute;
+            width: 300px;
+            height: 200px;
+            right: -10rem;
+            top: 11rem;
+        }
+
+        &__absolute-top-right-img-mobile {
+            background: url(../public/img/banner_top_right_image_mobile.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            right: 0;
+            top: 5rem;
+        }
+    }
+
+    &__absolute-bottom-left-img {
+        background: url(../public/img/startup_section_bottom_left_absolute_image.svg);
+        background-repeat: no-repeat;
+        background-position: left;
+        position: absolute;
+        width: 300px;
+        height: 250px;
+        left: 0;
+        bottom: 0;
+    }
+
+    &__absolute-bottom-left-img-mobile {
+        background: url(../public/img/banner_bottom_left-img.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        left: 0;
+        bottom: 0;
+    }
+
+    &__absolute-bottom-right-img {
+        background: url(../public/img/startup_section_bottom_right_image.svg);
+        background-repeat: no-repeat;
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        right: 0;
+        bottom: 0;
+        background-position: right;
+    }
+}

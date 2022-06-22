@@ -1,0 +1,113 @@
+.manage-deck-section {
+  height: 520px;
+  position: relative;
+  padding: 2rem 0.9rem 0 0.9rem;
+
+  &__comment-icon {
+    background: url(..//public//img/comment_icon.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+    top: -60px;
+    right: 0;
+    position: absolute;
+  }
+
+  &__wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 3rem;
+    background: radial-gradient(100.94% 522.06% at -0.94% 0%, rgba(247, 190, 108, 0.3) 0%, rgba(80, 98, 202, 0.3) 100%);
+
+    &__image-section {
+      position: absolute;
+      background: url(../public/img/unicorn_icon.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      width: 200px;
+      height: 200px;
+      top: -40px;
+      left: 5%;
+
+    }
+
+    .row {
+      height: 100%;
+    }
+
+    &__left-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      &__heading,
+      &__sub-heading {
+        text-align: left;
+        width: 100%;
+        padding-left: 3rem;
+
+      }
+
+      &__heading {
+        font-size: 2rem;
+        font-weight: bold;
+        margin: 2.5rem 0;
+      }
+
+      &__sub-heading {
+        font-size: 1rem;
+      }
+    }
+
+    &__right-section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &__image-section {
+        background: url(../public/img/cards_groups_image.svg);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 500px;
+        height: 500px;
+        animation: scaling infinite 10s;
+
+      }
+    }
+  }
+
+  @-webkit-keyframes scaling {
+    0% {
+      transform: scale(0.5);
+    }
+
+    50% {
+      transform: scale(1);
+    }
+
+    100% {
+      transform: scale(0.5);
+    }
+  }
+
+  @-moz-keyframes scaling {
+    0% {
+      transform: scale(0.5);
+    }
+
+    50% {
+      transform: scale(1);
+    }
+
+    100% {
+      transform: scale(0.5);
+    }
+  }
+
+}

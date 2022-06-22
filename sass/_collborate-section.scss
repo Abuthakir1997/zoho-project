@@ -1,0 +1,71 @@
+.collaborate-section {
+    height: 1000px;
+    width: 100%;
+    background: url(../public/img/header_gradient_bg_rotate.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+    &__wrapper {
+        height: 100%;
+        width: 100%;
+        margin-top: 2rem;
+
+        &__content-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 5rem 0;
+            position: relative;
+
+            &__heading {
+                font-size: 2rem;
+                font-weight: bold;
+                margin-bottom: 1rem;
+                text-align: center;
+            }
+
+            &__sub-heading {
+                font-size: 1rem;
+                text-align: center;
+            }
+
+            &__planet-icon {
+                background: url(../public/img/planet_icon.svg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+                width: 200px;
+                height: 300px;
+                position: absolute;
+                left: 40px;
+                top: -60px;
+            }
+        }
+
+        &__image-section {
+            background: url(../public/img/collaborate_bg.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            width: 100%;
+            height: calc(100% - 300px);
+            margin: 0 auto;
+
+        }
+    }
+
+    .absolute-img-ellipse {
+        position: absolute;
+        background: url(../public/img/ellipse_half_img.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 100px;
+        height: 100px;
+        filter: brightness(0.5);
+        top: 0;
+    }
+}

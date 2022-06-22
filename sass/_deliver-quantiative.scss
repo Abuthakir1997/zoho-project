@@ -1,0 +1,157 @@
+.deliver-quantiative-section {
+    padding: 15px;
+    margin-top: 3.5rem;
+    height: 520px;
+    width: 100%;
+    position: relative;
+
+    &__wrapper {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        border-radius: 3rem;
+        background: radial-gradient(100.94% 522.06% at -0.94% 0%, rgba(80, 98, 202, 0.3) 0%, rgba(247, 190, 108, 0.3) 100%);
+
+        .row {
+            height: 100%;
+            width: 100%;
+        }
+
+        &__content-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 100%;
+            width: 100%;
+
+            &__heading {
+                width: 100%;
+                text-align: left;
+                font-size: 2rem;
+                font-weight: bold;
+                padding-left: 3rem;
+            }
+
+            &__sub-heading {
+                display: block;
+                width: 100%;
+                text-align: left;
+                font-size: 1rem;
+                margin-top: 2rem;
+                padding-left: 3rem;
+            }
+        }
+
+        &__card-section {
+            height: 100%;
+
+            &__cards {
+                height: calc(100% - 130px);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 0 3rem;
+
+                &__card-1 {
+                    width: 100%;
+                    height: 200px;
+                    border-radius: 22px;
+                    background: var(--white);
+                    position: absolute;
+                    box-shadow: 0px 1.79312px 8.9656px rgba(88, 109, 230, 0.3);
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    &__icon-section {
+                        background: url(../public/img/graph_icon.svg);
+                        background-size: contain;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        width: 100px;
+                        height: 100px;
+                    }
+                }
+
+            }
+
+            &__carousel-section {
+                height: 50px;
+                display: flex;
+                justify-content: space-evenly;
+
+                &__previous-button,
+                &__next-button {
+                    justify-content: center;
+                    align-items: center;
+                    display: flex;
+                    border-radius: 50%;
+                    padding: 0.7rem;
+                    background: #fff;
+                    cursor: pointer;
+
+                    &__icon {
+                        background: url(../public/img/arrow-icon.svg);
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                        background-position: center;
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+
+                &__next-button {
+                    &__icon {
+                        transform: rotate(180deg);
+                    }
+                }
+
+                &__content {
+                    font-weight: bold;
+                    font-size: 1.5rem;
+                }
+            }
+
+        }
+
+
+        &__top-absolute-image {
+            background: url(../public/img/statistics_icon.svg);
+            width: 200px;
+            height: 200px;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            position: absolute;
+            top: -40px;
+            left: 5%;
+        }
+
+
+
+        &__bottom-absolute-image {
+            position: absolute;
+            background: url(../public/img/rocket_icon.svg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 300px;
+            height: 300px;
+            bottom: -206px;
+            left: 40%;
+        }
+
+        &__bottom-absolute-ellipse-image {
+            position: absolute;
+            background: url(../public/img/ellipse_absolute_bg.svg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 150px;
+            height: 200px;
+            bottom: -120px;
+            left: 40%;
+            filter: brightness(0.5);
+        }
+    }
+}
